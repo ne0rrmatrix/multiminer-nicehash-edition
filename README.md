@@ -5,17 +5,19 @@ MultiMiner is the official Ne0rmatrix MultiMiner Tool produced by James Crutchle
 
 Created, updated and maintained by https://github.com/ne0rmatrix/multiminer-nicehash-edition 
 
-No support requested or taken
+I am looking for people to test and submit pull requests :)
+
+Info
 - 3 Individual Miner builds
 - AMD, NVIDIA Miners included
 - 5 Different Mineable Cryptocurrencies
-- Cryptos supported:
-DaggerHashimito,Nist5,Neoscrypt,equihash
+
+Cryptos supported:
+- DaggerHashimito,Nist5,Neoscrypt,equihash
 
 Latest Update v1.0 alpha
 
 Change Log
-
 1.0 - ALPHA
 * initial commit 
 * BTC address and Rig Name located in my_info.bat file
