@@ -53,74 +53,9 @@ IF %M%==6 GOTO nist5-asia
 IF %M%==7 GOTO neoscrypt-usa
 IF %M%==8 GOTO neoscrypt-europe
 IF %M%==9 GOTO neoscrypt-asia
-IF %M%==16 GOTO monero1
-IF %M%==17 GOTO monero2
-IF %M%==18 GOTO monero3
-IF %M%==19 GOTO zcash1
-IF %M%==20 GOTO zcash2
-IF %M%==21 GOTO zcash3
-IF %M%==22 GOTO siacoin1
-IF %M%==23 GOTO pascal1
-IF %M%==24 GOTO pascal2
-IF %M%==25 GOTO hush1
-IF %M%==26 GOTO hush2
-IF %M%==27 GOTO lbry1
-IF %M%==28 GOTO lbry2
-IF %M%==29 GOTO dbix1
-IF %M%==30 GOTO dbix2
-IF %M%==31 GOTO dbix3
-IF %M%==32 GOTO dbix4
-IF %M%==33 GOTO ubiq2
-IF %M%==34 GOTO ubiq3
-IF %M%==35 GOTO ubiq4
-IF %M%==36 GOTO ubiq5
-IF %M%==37 GOTO ubiq6
-IF %M%==38 GOTO exp1
-IF %M%==39 GOTO btg1
-IF %M%==40 GOTO btg2
-IF %M%==41 GOTO dgb1
-IF %M%==42 GOTO dgb2
-IF %M%==43 GOTO ftc1
-IF %M%==44 GOTO ftc2
-IF %M%==45 GOTO mus1
-IF %M%==46 GOTO mus2
-IF %M%==47 GOTO mus3
-IF %M%==48 GOTO mus4
-IF %M%==49 GOTO mus5
-IF %M%==50 GOTO etn1
-IF %M%==51 GOTO etn2
-IF %M%==52 GOTO etn3
-IF %M%==53 GOTO zcl1
-IF %M%==54 GOTO zcl2
-IF %M%==55 GOTO xzc1
-IF %M%==56 GOTO xzc2
-IF %M%==57 GOTO vtc1
-IF %M%==58 GOTO zen3
-IF %M%==59 GOTO zen4
-IF %M%==60 GOTO zen1
-IF %M%==61 GOTO zen2
-IF %M%==62 GOTO pirl1
-IF %M%==63 GOTO pirl2
-IF %M%==64 GOTO pirl3
-IF %M%==65 GOTO ella1
-IF %M%==66 GOTO ella2
-IF %M%==67 GOTO ella3
-IF %M%==68 GOTO ella4
-IF %M%==69 GOTO ella5
-IF %M%==70 GOTO ella6
-IF %M%==71 GOTO sumo1
-IF %M%==72 GOTO sumo2
-IF %M%==73 GOTO sumo3
-IF %M%==74 GOTO krb1
-IF %M%==75 GOTO krb2
-IF %M%==76 GOTO krb3
-IF %M%==77 GOTO zcash4
-IF %M%==78 GOTO zcash5
-IF %M%==79 GOTO mona1
-IF %M%==80 GOTO mona1
-IF %M%==81 GOTO pirl4
-IF %M%==82 GOTO pirl5
-IF %M%==83 GOTO pirl6
+IF %M%==10 GOTO equihash-nv-usa
+IF %M%==10 GOTO equihash-nv-europe
+IF %M%==10 GOTO equihash-nv-asia
 IF %M% GTR 84 GOTO EOF
 
 ::
@@ -186,4 +121,24 @@ ECHO ccminer - Neoscrypt for nicehash asia Only
 Miners\ccminer-x64-2.2.2-cuda9\ccminer-x64.exe -a neoscrypt -o stratum+tcp://neoscrypt.hk.nicehash.com:3341 -u %BTC%.%MINER_NAME% -p x 
 if %ERRORLEVEL% NEQ 0 goto exit
 
+::
+:: Equihash Miners - Nvidia Only
+::
+:equihash-nv-usa
+ECHO NVIDIA EWBF's CUDA Equihash for nicehash USA Only
+Miners\ZEC_M0.3.4b\miner.exe --server equihash.usa.nicehash.com --user %BTC%.%MINER_NAME% --pass x --port 3357 --pec
+if %ERRORLEVEL% NEQ 0 goto exit
+pause
+
+:equihash-nv-europe
+ECHO NVIDIA EWBF's CUDA Equihash for nicehash Europe Only
+Miners\ZEC_M0.3.4b\miner.exe --server equihash.eu.nicehash.com --user %BTC%.%MINER_NAME% --pass x --port 3357 --pec
+if %ERRORLEVEL% NEQ 0 goto exit
+pause
+
+:equihash-nv-asia
+ECHO NVIDIA EWBF's CUDA Equihash for nicehash Asia Only
+Miners\ZEC_M0.3.4b\miner.exe --server equihash.hk.nicehash.com --user %BTC%.%MINER_NAME% --pass x --port 3357 --pec
+if %ERRORLEVEL% NEQ 0 goto exit
+pause
 :EOF

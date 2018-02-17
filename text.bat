@@ -14,14 +14,19 @@ ECHO ====================================================
 ECHO 4. AMD and NVIDIA 	CCminer - USA
 ECHO 5. AMD and NVIDIA 	CCminer - Europe
 ECHO 6. AMD and NVIDIA 	CCminer - Asia
-
 ECHO ====================================================
 ECHO *                    Neoscrypt                     *
 ECHO ====================================================
 ECHO 7. AMD and NVIDIA 	CCminer - USA
 ECHO 8. AMD and NVIDIA 	CCminer - Europe
 ECHO 9. AMD and NVIDIA 	CCminer - Asia
-
+ECHO ====================================================
+ECHO *                    Equihash                      *
+ECHO ====================================================
+ECHO 10. NVIDIA 	EWBF's CUDA  - USA
+ECHO 11. NVIDIA 	EWBF's CUDA  - Europe
+ECHO 12. NVIDIA 	EWBF's CUDA - Asia
+ECHO ====================================================
 ECHO 99 - EXIT
 ECHO.
  
