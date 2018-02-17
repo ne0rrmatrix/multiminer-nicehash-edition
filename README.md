@@ -12,9 +12,6 @@ Info
 - AMD, NVIDIA Miners included
 - 5 Different Mineable Cryptocurrencies
 
-Cryptos supported:
-- DaggerHashimito,Nist5,Neoscrypt,equihash
-
 Latest Update v1.0 alpha
 
 Change Log
@@ -29,6 +26,7 @@ Algo's added
 * Added Nist5
 * Added Neoscrypt
 * Added Equihash
+
 
 Nicehash is the only pool and i will be adding more algo's over the next few days. Will be fully testing before going to release on version 1.0. Not recommended for download until bug testing and both AMD and Nvidia Miners are fully tested and verified working. Not a production build yet. Please do not use for this multiminer for anything other than testing purposes at this time.
 
