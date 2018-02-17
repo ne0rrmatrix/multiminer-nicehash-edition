@@ -1,5 +1,5 @@
 # multiminer for nicehash
-Forked by ne0rmatrix
+by ne0rmatrix
 
 MultiMiner is the official Ne0rmatrix MultiMiner Tool produced by James Crutchley.
 
