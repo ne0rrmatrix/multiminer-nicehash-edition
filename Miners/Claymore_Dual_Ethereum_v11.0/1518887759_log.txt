@@ -1,0 +1,38 @@
+09:15:59:040	255c	Check and remove old log files...
+09:15:59:043	255c	args: -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 1QHADdYwmMgVoaYqqY3SE8ummr4euHqzUv. -epsw x -allpools 1 
+09:15:59:046	255c	
+09:15:59:048	255c	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+09:15:59:050	255c	บ                Claymore's Dual GPU Miner - v11.0               บ
+09:15:59:052	255c	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+09:15:59:055	255c	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+09:15:59:058	255c	
+09:15:59:061	255c	b501 
+09:15:59:273	255c	ETH: 1 pool is specified
+09:15:59:275	255c	Main Ethereum pool is daggerhashimoto.usa.nicehash.com:3353
+09:15:59:278	255c	DCR: 0 pool is specified
+09:15:59:679	255c	OpenCL platform: NVIDIA CUDA
+09:15:59:682	255c	AMD OpenCL platform not found 
+09:16:00:035	255c	CUDA initializing...
+
+09:16:00:039	255c	NVIDIA Cards available: 2 
+09:16:00:041	255c	CUDA Driver Version/Runtime Version: 9.1/8.0
+09:16:00:048	255c	GPU #0: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 1:0:0)
+
+09:16:00:051	255c	GPU #1: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 2:0:0)
+
+09:16:00:054	255c	Total cards: 2 
+09:16:04:059	255c	No AMD cards in the list, ADL library will not be used.
+09:16:04:064	255c	NVML version: 9.390.77
+09:16:04:272	274c	ETH: Stratum - connecting to 'daggerhashimoto.usa.nicehash.com' <198.11.220.44> port 3353
+09:16:04:335	274c	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["1QHADdYwmMgVoaYqqY3SE8ummr4euHqzUv.", "x"], "id": 2, "method": "eth_submitLogin"}
+
+09:16:04:338	274c	ETH: Stratum - Connected (daggerhashimoto.usa.nicehash.com:3353)
+09:16:04:352	255c	No pool specified for Decred! Ethereum-only mining mode is enabled
+09:16:04:355	255c	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+09:16:04:358	255c	ETH: eth-proxy stratum mode
+09:16:04:361	255c	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+09:16:04:363	255c	Watchdog enabled
+09:16:04:366	255c	Remote management (READ-ONLY MODE) is enabled on port 3333
+09:16:04:369	255c	
+09:16:04:385	274c	Socket was closed remotely (by pool)
+09:16:04:388	274c	ETH: Job timeout, disconnect, retry in 20 sec...

@@ -1,0 +1,95 @@
+09:21:22:526	1be8	Check and remove old log files...
+09:21:22:529	1be8	args: -epool stratum+tcp://daggerhashimoto.usa.nicehash.com:3353 -ewal 3NBF2JfNzpopG8GeFUBStfrKQkTZhzWrgX. -epsw x -esm 3 -allpools 1 
+09:21:22:531	1be8	
+09:21:22:532	1be8	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+09:21:22:534	1be8	บ                Claymore's Dual GPU Miner - v11.0               บ
+09:21:22:534	1be8	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+09:21:22:536	1be8	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+09:21:22:538	1be8	
+09:21:22:541	1be8	b501 
+09:21:22:744	1be8	ETH: 1 pool is specified
+09:21:22:747	1be8	Main Ethereum pool is daggerhashimoto.usa.nicehash.com:3353
+09:21:22:749	1be8	DCR: 0 pool is specified
+09:21:22:807	1be8	OpenCL platform: NVIDIA CUDA
+09:21:22:810	1be8	AMD OpenCL platform not found 
+09:21:22:997	1be8	CUDA initializing...
+
+09:21:23:000	1be8	NVIDIA Cards available: 2 
+09:21:23:002	1be8	CUDA Driver Version/Runtime Version: 9.1/8.0
+09:21:23:009	1be8	GPU #0: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 1:0:0)
+
+09:21:23:013	1be8	GPU #1: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 2:0:0)
+
+09:21:23:016	1be8	Total cards: 2 
+09:21:27:021	1be8	No AMD cards in the list, ADL library will not be used.
+09:21:27:026	1be8	NVML version: 9.390.77
+09:21:27:233	3938	ETH: Stratum - connecting to 'daggerhashimoto.usa.nicehash.com' <198.11.220.44> port 3353
+09:21:27:299	3938	send: {"id": 1, "method": "mining.subscribe", "params": ["MinerName/1.0.0", "EthereumStratum/1.0.0"]}
+
+09:21:27:303	3938	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+09:21:27:305	3938	send: {"id": 2, "method": "mining.authorize", "params": ["3NBF2JfNzpopG8GeFUBStfrKQkTZhzWrgX.","x"]}
+
+09:21:27:308	3938	ETH: Stratum - Connected (daggerhashimoto.usa.nicehash.com:3353)
+09:21:27:315	1be8	No pool specified for Decred! Ethereum-only mining mode is enabled
+09:21:27:319	1be8	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+09:21:27:322	1be8	ETH: nicehash stratum mode
+09:21:27:324	1be8	"-allpools" option is set, default pools can be used for devfee, check "Readme" file for details.
+09:21:27:326	1be8	Watchdog enabled
+09:21:27:329	1be8	Remote management (READ-ONLY MODE) is enabled on port 3333
+09:21:27:332	1be8	
+09:21:27:387	3938	got 119 bytes
+09:21:27:390	3938	buf: {"id":1,"error":null,"result":[["mining.notify","2abd7b88480b1d57f0c91f47ba9bac7e","EthereumStratum/1.0.0"],"9d4000"]}
+
+09:21:27:392	3938	parse packet: 118
+09:21:27:394	3938	new buf size: 0
+09:21:27:407	3938	got 302 bytes
+09:21:27:409	3938	buf: {"id":2,"result":true,"error":null}
+{"id":null,"method":"mining.set_difficulty","params":[0.5]}
+{"params":["00000013e209e20b","4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","b21baa496598f527a28c98f160c65bddf958d89a759b2b8051c8b78e202ef458",true],"id":null,"method":"mining.notify"}
+
+09:21:27:411	3938	parse packet: 35
+09:21:27:414	3938	ETH: Authorized
+09:21:27:416	3938	remove first packet 266
+09:21:27:419	3938	new buf size: 266
+09:21:27:421	3938	parse packet: 59
+09:21:27:421	3938	remove first packet 206
+09:21:27:424	3938	new buf size: 206
+09:21:27:426	3938	parse packet: 205
+09:21:27:428	3938	ETH: job changed
+09:21:27:428	3938	new buf size: 0
+09:21:27:522	27c	Setting DAG epoch #170...
+09:21:27:699	3938	got 36 bytes
+09:21:27:702	3938	buf: {"id":5,"result":true,"error":null}
+
+09:21:27:704	3938	parse packet: 35
+09:21:27:706	3938	new buf size: 0
+09:21:29:367	27c	Setting DAG epoch #170 for GPU0
+09:21:29:368	21e0	Setting DAG epoch #170 for GPU1
+09:21:29:374	27c	Create GPU buffer for GPU0
+09:21:29:376	21e0	Create GPU buffer for GPU1
+09:21:33:082	3938	got 206 bytes
+09:21:33:085	3938	buf: {"params":["00000013e20a224c","4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","fe2f5d0da067f93b2afbbf0bebe0a6a10eb822fe540023d68cd966d273a262ca",true],"id":null,"method":"mining.notify"}
+
+09:21:33:087	3938	parse packet: 205
+09:21:33:090	3938	ETH: job changed
+09:21:33:092	3938	new buf size: 0
+09:21:33:095	3938	ETH: 02/17/18-09:21:33 - New job from daggerhashimoto.usa.nicehash.com:3353
+09:21:33:097	3938	target: 0x00000001fffe0000 (diff: 2147MH), epoch 170(2.33GB)
+09:21:33:100	3938	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:21:33:102	3938	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+09:21:37:262	21e0	GPU1 DAG creation time - 7805 ms
+09:21:37:265	21e0	Setting DAG epoch #170 for GPU1 done
+09:21:37:428	27c	GPU0 DAG creation time - 7976 ms
+09:21:37:431	27c	Setting DAG epoch #170 for GPU0 done
+09:21:39:595	3938	got 206 bytes
+09:21:39:598	3938	buf: {"params":["00000013e20a812f","4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","3a6e234e908eeeef4c88e7d2452e4e7a0e5abb45acf6bfef3ea9691789f5110d",true],"id":null,"method":"mining.notify"}
+
+09:21:39:600	3938	parse packet: 205
+09:21:39:603	3938	ETH: job changed
+09:21:39:605	3938	new buf size: 0
+09:21:39:606	3938	ETH: 02/17/18-09:21:39 - New job from daggerhashimoto.usa.nicehash.com:3353
+09:21:39:609	3938	target: 0x00000001fffe0000 (diff: 2147MH), epoch 170(2.33GB)
+09:21:39:612	3938	ETH - Total Speed: 48.006 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+09:21:39:614	3938	ETH: GPU0 23.880 Mh/s, GPU1 24.126 Mh/s
+09:21:42:278	1d00	Quit, please wait...

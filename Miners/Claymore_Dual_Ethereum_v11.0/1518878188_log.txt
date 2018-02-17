@@ -1,0 +1,25 @@
+06:36:28:317	47c4	Check and remove old log files...
+06:36:28:319	47c4	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal Redhex.my -dpsw x 
+06:36:28:320	47c4	
+06:36:28:321	47c4	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+06:36:28:321	47c4	บ                Claymore's Dual GPU Miner - v11.0               บ
+06:36:28:322	47c4	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+06:36:28:323	47c4	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+06:36:28:325	47c4	
+06:36:28:326	47c4	b501 
+06:36:28:529	47c4	You specified default wallet address, it is good for tests only, for normal mining you must change it to your wallet address!
+06:36:28:530	47c4	ETH: 1 pool is specified
+06:36:28:531	47c4	Main Ethereum pool is eth-eu.dwarfpool.com:8008
+06:36:28:532	47c4	DCR: 1 pool is specified
+06:36:28:533	47c4	Main Decred pool is dcr.suprnova.cc:3252
+06:36:29:126	47c4	OpenCL platform: NVIDIA CUDA
+06:36:29:127	47c4	AMD OpenCL platform not found 
+06:36:29:664	47c4	CUDA initializing...
+
+06:36:29:665	47c4	NVIDIA Cards available: 2 
+06:36:29:666	47c4	CUDA Driver Version/Runtime Version: 9.1/8.0
+06:36:29:670	47c4	GPU #0: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 1:0:0)
+
+06:36:29:672	47c4	GPU #1: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 2:0:0)
+
+06:36:29:675	47c4	Total cards: 2 

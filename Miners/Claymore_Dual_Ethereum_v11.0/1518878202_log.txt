@@ -1,0 +1,111 @@
+06:36:42:164	3db4	Check and remove old log files...
+06:36:42:165	3db4	args: -epool eth-eu.dwarfpool.com:8008 -ewal 0xD69af2A796A737A103F12d2f0BCC563a13900E6F -epsw x -dpool stratum+tcp://dcr.suprnova.cc:3252 -dwal Redhex.my -dpsw x 
+06:36:42:165	3db4	
+06:36:42:166	3db4	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+06:36:42:167	3db4	บ                Claymore's Dual GPU Miner - v11.0               บ
+06:36:42:167	3db4	บ              ETH + DCR/SIA/LBC/PASC/BLAKE2S/KECCAK             บ
+06:36:42:168	3db4	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+06:36:42:172	3db4	
+06:36:42:172	3db4	b501 
+06:36:42:373	3db4	You specified default wallet address, it is good for tests only, for normal mining you must change it to your wallet address!
+06:36:42:374	3db4	ETH: 1 pool is specified
+06:36:42:374	3db4	Main Ethereum pool is eth-eu.dwarfpool.com:8008
+06:36:42:375	3db4	DCR: 1 pool is specified
+06:36:42:375	3db4	Main Decred pool is dcr.suprnova.cc:3252
+06:36:42:425	3db4	OpenCL platform: NVIDIA CUDA
+06:36:42:426	3db4	AMD OpenCL platform not found 
+06:36:42:633	3db4	CUDA initializing...
+
+06:36:42:633	3db4	NVIDIA Cards available: 2 
+06:36:42:634	3db4	CUDA Driver Version/Runtime Version: 9.1/8.0
+06:36:42:637	3db4	GPU #0: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 1:0:0)
+
+06:36:42:638	3db4	GPU #1: GeForce GTX 1080, 8192 MB available, 20 compute units, capability: 6.1  (pci bus 2:0:0)
+
+06:36:42:639	3db4	Total cards: 2 
+06:36:46:641	3db4	No AMD cards in the list, ADL library will not be used.
+06:36:46:644	3db4	NVML version: 9.390.77
+06:36:46:848	28f8	ETH: Stratum - connecting to 'eth-eu.dwarfpool.com' <87.98.182.61> port 8008
+06:36:46:934	3db4	DUAL MINING MODE ENABLED: ETHEREUM+DECRED
+06:36:46:935	3db4	ETH: eth-proxy stratum mode
+06:36:46:936	3db4	Watchdog enabled
+06:36:46:936	3db4	Remote management (READ-ONLY MODE) is enabled on port 3333
+06:36:46:937	3db4	
+06:36:46:941	1ae8	 DCR: Stratum - connecting to 'dcr.suprnova.cc' <149.202.215.198> port 3252
+06:36:47:025	28f8	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xD69af2A796A737A103F12d2f0BCC563a13900E6F", "x"], "id": 2, "method": "eth_submitLogin"}
+
+06:36:47:026	28f8	ETH: Stratum - Connected (eth-eu.dwarfpool.com:8008)
+06:36:47:096	1ae8	send: {"id": 1, "method": "mining.subscribe", "params": ["dual 1.0"]}
+
+06:36:47:097	1ae8	send: {"id": 5, "method": "mining.extranonce.subscribe", "params": []}
+
+06:36:47:098	1ae8	send: {"id": 2, "method": "mining.authorize", "params": ["Redhex.my","x"]}
+
+06:36:47:098	1ae8	 DCR: Stratum - Connected (dcr.suprnova.cc:3252)
+06:36:47:204	28f8	got 39 bytes
+06:36:47:204	28f8	buf: {"id":2,"jsonrpc":"2.0","result":true}
+
+06:36:47:205	28f8	parse packet: 38
+06:36:47:205	28f8	ETH: Authorized
+06:36:47:207	28f8	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+06:36:47:207	28f8	new buf size: 0
+06:36:47:243	1ae8	got 578 bytes
+06:36:47:243	1ae8	buf: {"id":1,"result":[[["mining.notify","deadbeefcafebabe6cc9080000000000"]],"245acbaa36b5e18395209f07",12],"error":null}
+{"id":null,"method":"mining.set_difficulty","params":[64]}
+{"id":null,"method":"mining.notify","params":["788","45301489a581a8888f4e5e11b3855f1df060b46999033e8d0000000600000000","54c835837b4d5b04a868ad0cb42b8fc9527ad9c4848438d90551edab84ff98e0ac19a021bc583bba6ed5b26c6105fdb3a6f6ce8f67d17abf7b3cebe85d4f71390100d908bdb2052805001300cd9f0000a2b62919d242c6dc01000000f342030078330000df3d885a0000000000000000","05000000",[],"05000000","1929b6a2","5a883ddf",false]}
+
+06:36:47:244	1ae8	parse packet: 117
+06:36:47:244	1ae8	remove first packet 460
+06:36:47:245	1ae8	new buf size: 460
+06:36:47:245	1ae8	parse packet: 58
+06:36:47:246	1ae8	remove first packet 401
+06:36:47:246	1ae8	new buf size: 401
+06:36:47:247	1ae8	parse packet: 400
+06:36:47:247	1ae8	new buf size: 0
+06:36:47:362	28f8	got 244 bytes
+06:36:47:362	28f8	buf: {"result":["0x84bf317c7369fd5eb3845ffc1ad73d72bc70748ce99a38d5822f2dd214c6439e","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+06:36:47:363	28f8	parse packet: 242
+06:36:47:363	28f8	ETH: job changed
+06:36:47:364	28f8	new buf size: 0
+06:36:47:394	1ae8	got 36 bytes
+06:36:47:394	1ae8	buf: {"id":2,"result":true,"error":null}
+
+06:36:47:395	1ae8	parse packet: 35
+06:36:47:395	1ae8	 DCR: Authorized
+06:36:47:397	1ae8	new buf size: 0
+06:36:47:447	41e8	Setting DAG epoch #170...
+06:36:49:301	41e8	Setting DAG epoch #170 for GPU0
+06:36:49:303	284	Setting DAG epoch #170 for GPU1
+06:36:49:304	41e8	Create GPU buffer for GPU0
+06:36:49:305	284	Create GPU buffer for GPU1
+06:36:49:861	28f8	got 244 bytes
+06:36:49:861	28f8	buf: {"result":["0xd0ae05f4f73df255cf63abe82fc0f45285864f7b5ea0fedb1a7a293569a2befc","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":0}
+
+
+06:36:49:862	28f8	parse packet: 242
+06:36:49:862	28f8	ETH: job changed
+06:36:49:863	28f8	new buf size: 0
+06:36:49:869	28f8	ETH: 02/17/18-06:36:49 - New job from eth-eu.dwarfpool.com:8008
+06:36:49:869	28f8	target: 0x0000000225c17d04 (diff: 2000MH), epoch 170(2.33GB)
+06:36:49:871	28f8	ETH - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0, Time: 00:00
+06:36:49:873	28f8	ETH: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+06:36:49:874	28f8	 DCR - Total Speed: 0.000 Mh/s, Total Shares: 0, Rejected: 0
+06:36:49:874	28f8	 DCR: GPU0 0.000 Mh/s, GPU1 0.000 Mh/s
+06:36:57:182	284	GPU1 DAG creation time - 7799 ms
+06:36:57:184	284	Setting DAG epoch #170 for GPU1 done
+06:36:57:365	28f8	ETH: checking pool connection...
+06:36:57:365	28f8	send: {"worker": "", "jsonrpc": "2.0", "params": [], "id": 3, "method": "eth_getWork"}
+
+06:36:57:395	41e8	GPU0 DAG creation time - 8013 ms
+06:36:57:396	41e8	Setting DAG epoch #170 for GPU0 done
+06:36:57:520	28f8	got 244 bytes
+06:36:57:520	28f8	buf: {"result":["0xd0ae05f4f73df255cf63abe82fc0f45285864f7b5ea0fedb1a7a293569a2befc","0x4e99a30e99712c8c6e292fe7ba6b27a37c7ced12e2ec7862f31fb676724cb404","0x0000000225c17d04dad2965cc5a02a23e254c0c3f75d9178046aeb27ce1ca574"],"jsonrpc":"2.0","id":3}
+
+
+06:36:57:521	28f8	parse packet: 242
+06:36:57:521	28f8	ETH: job is the same
+06:36:57:522	28f8	new buf size: 0
+06:37:00:002	2c50	Quit, please wait...
