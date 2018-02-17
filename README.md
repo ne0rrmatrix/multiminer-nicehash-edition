@@ -1,43 +1,32 @@
-# bbtmultiminer
+# multiminer for nicehash
 Forked by ne0rmatrix
 
-BBT MultiMiner is the official BitsBeTrippin MultiMiner Tool produced by BBT Carter.
+MultiMiner is the official Ne0rmatrix MultiMiner Tool produced by James Crutchley.
 
-Created, updated and maintained by www.bitsbetrippin.io
+Created, updated and maintained by https://github.com/ne0rmatrix/multiminer-nicehash-edition 
 
-Supported by donations and great viewers of www.youtube.com/c/bitsbetrippin
-- 27 Individual Miner builds
+No support requested or taken
+- 3 Individual Miner builds
 - AMD, NVIDIA Miners included
-- 29 Different Mineable Cryptocurrencies
+- 5 Different Mineable Cryptocurrencies
 - Cryptos supported:
-ETH,ETC,XMR,SIA,ZEC,PASC,HUSH,LBC,DCR,DBIX,UBQ,EXP,DGD,FTC,MUS,ZCL,ZEN,BTG,PIRL,ETN,VTC,KMD,ELLA,SUMO,KRB,MONA
+DaggerHashimito,Nist5,Neoscrypt,equihash
 
-Latest Update v5.8 alpha
+Latest Update v1.0 alpha
 
 Change Log
 
-5.8
-* various bug fixes and updated Claymore Dual Miner to 11.0
-* coin adddresses now located in my_info.bat file
+1.0
+* initial commit 
+* BTC address and Rig Name located in my_info.bat file
+* 3 miners supported initially
+* Nvidia Miners only to start
 
-5.7
-* Updated Claymore Ethereum Dual Miner to 10.2
-* Removed -di entry on ETN RX option, left in from testing in previous option
-* Removed STAK-XMR Miner CPU & GPU as it was tossing false positive on antivirus
-* Added CAST XMR Miner - updated XMR, ETN, SUMO, KRB options for Vega Cards
-* Removed electoneum.fr pool as many reported unstability
-* Added easyhash.io for electroneum, sumokoin, karbowanec
-* Aligned all of the menu item titles (yes, OCD folks will be happy)
-* Added Coin Tickers to each Menu Title
-* Corrected ZENCash title, previously named ZENCoin in our MultiMiner
-* Added HODLPool ZEC Only Category (MSG Us for your own Pool Category)
-* Swapped HUSH Pools from Suprnov.cc to HODLPool (send us msg if you want suprnova back)
-
-Coins added
-* Added Ellaism
-* Added Sumokoin
-* Added Karbowanec
-* Added Monacoin
+Algo's added
+* Added DaggerHashimito
+* Added Nist5
+* Added Neoscrypt
+* Added Equihash
 
 Pools added
 * Additional HODLPool options for ZEC, HUSH, ZEN, KMD
