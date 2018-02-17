@@ -28,8 +28,8 @@ Algo's added
 * Added Neoscrypt
 * Added Equihash
 
-Pools added
-* Additional HODLPool options for ZEC, HUSH, ZEN, KMD
-* Added easyhash.io
-* Added cryptobitpool
-* Added ellaismpool
+Nicehash is the only pool and i will be adding more algo's over the next few days. Will be fully testing before going to release on version 1.0. Not recommended for download until bug testing and both AMD and Nvidia Miners are fully tested and verified working. Not a production build yet. Please do not use for this multiminer for anything other than testing purposes at this time.
+
+*FOR TESTING ONLY
+*NOT FOR PRODUCTION USE AT THIS TIME!
+
