@@ -16,7 +16,7 @@ Latest Update v1.0 alpha
 
 Change Log
 
-1.0
+1.0 - ALPHA
 * initial commit 
 * BTC address and Rig Name located in my_info.bat file
 * 3 miners supported initially
